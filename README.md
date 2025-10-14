@@ -1,12 +1,17 @@
-🍰 Cake Factory
+# 🍰 Cake Factory
 
 A modern React-based web application for browsing and ordering cakes. The project follows a modular structure for scalability and maintainability, with separate folders for components, pages, hooks, and global styles.
 
-🚀 Live Preview
+---
 
-Localhost: http://localhost:3000/
+## 🚀 Live Preview
+**Localhost:** [http://localhost:3000/](http://localhost:3000/)
 
-🧩 Project Structure
+---
+
+## 🧩 Project Structure
+
+```
 cake-factory/
 ├── node_modules/
 ├── public/
@@ -26,72 +31,70 @@ cake-factory/
 ├── package.json
 ├── package-lock.json
 └── README.md
+```
 
-🛠️ Tech Stack
+---
 
-Frontend: React.js
+## 🛠️ Tech Stack
 
-Styling: CSS Modules / TailwindCSS (based on your setup)
+- **Frontend:** React.js  
+- **Styling:** CSS Modules / TailwindCSS (based on your setup)  
+- **State Management:** Context API (optional: Redux if added later)  
+- **Routing:** React Router (if implemented)  
+- **Performance Monitoring:** reportWebVitals  
 
-State Management: Context API (optional: Redux if added later)
+---
 
-Routing: React Router (if implemented)
+## ⚙️ Setup and Installation
 
-Performance Monitoring: reportWebVitals
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/cake-factory.git
+   cd cake-factory
 
-⚙️ Setup and Installation
+2. **Install dependencies**
+   ```bash
+   npm install
 
-Clone the repository
+3. **Start the development server**
+   ```bash
+   npm start
 
-git clone https://github.com/your-username/cake-factory.git
-cd cake-factory
-
-
-Install dependencies
-
-npm install
-
-
-Start the development server
-
-npm start
+4. **Open your browser and visit**
+   👉 http://localhost:3000/
 
 
-Open your browser and visit
-👉 http://localhost:3000/
+---
 
-📁 Available Scripts
-Command	Description
-npm start	Runs the app in development mode
-npm run build	Builds the app for production
-npm test	Launches the test runner
-npm run eject	Ejects from Create React App configuration
-🧠 Folder Highlights
+## 📁 Available Scripts
 
-components/ → Reusable parts of the UI like Navbar, Footer, and CakeCard.
+| Command | Description |
+|----------|-------------|
+| `npm start` | Runs the app in development mode |
+| `npm run build` | Builds the app for production |
+| `npm test` | Launches the test runner |
+| `npm run eject` | Ejects from Create React App configuration |
 
-pages/ → Full-page components like HomePage, MenuPage, and ContactPage.
+---
 
-context/ → App-wide states like CartContext or ThemeContext.
+## 🧠 Folder Highlights
 
-hooks/ → Custom React hooks for reusability (e.g., useFetch, useCart).
+- **components/** → Reusable parts of the UI like Navbar, Footer, and CakeCard.  
+- **pages/** → Full-page components like HomePage, MenuPage, and ContactPage.  
+- **context/** → App-wide states like CartContext or ThemeContext.  
+- **hooks/** → Custom React hooks for reusability (e.g., useFetch, useCart).  
+- **styles/** → Centralized CSS or Tailwind configuration files.
 
-styles/ → Centralized CSS or Tailwind configuration files.
+---
 
-💡 Future Enhancements
+## 💡 Future Enhancements
 
-Integrate backend (Flask / Node.js) for dynamic data
+- Integrate backend (Flask / Node.js) for dynamic data  
+- Add authentication (login/signup)  
+- Implement cart and payment gateway  
+- Improve responsive UI  
 
-Add authentication (login/signup)
+---
 
-Implement cart and payment gateway
-
-Improve responsive UI
-
-📜 License
-
-This project is licensed under the MIT License — feel free to use and modify.
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📜 License
+This project is licensed under the **MIT License** — feel free to use and modify.
