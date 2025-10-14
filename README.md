@@ -1,69 +1,96 @@
-# Getting Started with Create React App
+🍰 Cake Factory
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React-based web application for browsing and ordering cakes. The project follows a modular structure for scalability and maintainability, with separate folders for components, pages, hooks, and global styles.
 
-## Available Scripts
+🚀 Live Preview
 
-In the project directory, you can run:
+Localhost: http://localhost:3000/
 
-### `npm start`
+🧩 Project Structure
+cake-factory/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/          # Images, fonts, and static resources
+│   ├── components/      # Reusable UI components (buttons, cards, forms, etc.)
+│   ├── context/         # Global state management (React Context API)
+│   ├── data/            # Static or mock data files
+│   ├── hooks/           # Custom React hooks
+│   ├── pages/           # Page components (Home, About, Products, etc.)
+│   ├── styles/          # Global and modular CSS / Tailwind / SCSS files
+│   ├── App.jsx          # Main app component
+│   ├── index.js         # Entry point for rendering the app
+│   ├── logo.svg         # App logo
+│   └── reportWebVitals.js # Performance tracking
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🛠️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Frontend: React.js
 
-### `npm test`
+Styling: CSS Modules / TailwindCSS (based on your setup)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+State Management: Context API (optional: Redux if added later)
 
-### `npm run build`
+Routing: React Router (if implemented)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Performance Monitoring: reportWebVitals
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⚙️ Setup and Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the repository
 
-### `npm run eject`
+git clone https://github.com/your-username/cake-factory.git
+cd cake-factory
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Start the development server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Open your browser and visit
+👉 http://localhost:3000/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📁 Available Scripts
+Command	Description
+npm start	Runs the app in development mode
+npm run build	Builds the app for production
+npm test	Launches the test runner
+npm run eject	Ejects from Create React App configuration
+🧠 Folder Highlights
 
-### Analyzing the Bundle Size
+components/ → Reusable parts of the UI like Navbar, Footer, and CakeCard.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+pages/ → Full-page components like HomePage, MenuPage, and ContactPage.
 
-### Making a Progressive Web App
+context/ → App-wide states like CartContext or ThemeContext.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+hooks/ → Custom React hooks for reusability (e.g., useFetch, useCart).
 
-### Advanced Configuration
+styles/ → Centralized CSS or Tailwind configuration files.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+💡 Future Enhancements
 
-### Deployment
+Integrate backend (Flask / Node.js) for dynamic data
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Add authentication (login/signup)
+
+Implement cart and payment gateway
+
+Improve responsive UI
+
+📜 License
+
+This project is licensed under the MIT License — feel free to use and modify.
 
 ### `npm run build` fails to minify
 
